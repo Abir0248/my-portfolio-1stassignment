@@ -23,10 +23,10 @@ div p {
   border-image-slice: 1;
   padding-left: 10px;
 }
-section {
+.flex-con {
   display: flex;
-  padding: 20px 60px;
-  margin-bottom: 20px;
+  padding: 10x 30px;
+  margin-bottom: 10px;
 }
 .half-width {
   width: 50%;
@@ -66,4 +66,7 @@ li {
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
+}
+.midle-align {
+  text-align: center;
 }
