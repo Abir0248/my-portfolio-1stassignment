@@ -1,6 +1,6 @@
 body {
   font-family: "Luxurious Roman", cursive;
-  margin: 0px;
+  margin-left: 100px;
 }
 h1 {
   font-size: 50px;
@@ -76,4 +76,24 @@ li {
 }
 .no-padding {
   padding: 0px;
+}
+
+.qualifications {
+  width: 30%;
+  padding-left: 20px;
+  margin-right: 2%;
+  border-radius: 30px;
+}
+.qualifications img {
+  width: 200px;
+  height: 200px;
+}
+#ps {
+  background-color: rgb(242, 248, 248);
+}
+#edu {
+  background-color: #f5e6e4;
+}
+#sh {
+  background-color: #f1e9dc;
 }
