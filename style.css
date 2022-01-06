@@ -10,6 +10,10 @@ h2 {
   font-size: 40px;
   font-weight: 700;
 }
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
 
 .peach-color {
   color: #f0b6ae;
@@ -69,4 +73,7 @@ li {
 }
 .midle-align {
   text-align: center;
+}
+.no-padding {
+  padding: 0px;
 }
