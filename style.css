@@ -1,5 +1,6 @@
 body {
   font-family: "Luxurious Roman", cursive;
+  margin: 0px;
 }
 h1 {
   font-size: 50px;
@@ -25,6 +26,7 @@ div p {
 section {
   display: flex;
   padding: 20px 60px;
+  margin-bottom: 20px;
 }
 .half-width {
   width: 50%;
@@ -37,8 +39,31 @@ section {
   text-decoration: none;
   background-image: linear-gradient(#ffe5b4, #ffcbc4);
   padding: 10px 20px;
-  border: 1px solid rgb(12, 43, 58);
+
   border-radius: 8px;
   color: rgb(12, 43, 58);
   font-weight: 700;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.img-radius {
+  border-radius: 35px;
+}
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.research {
+  background-image: url(images/bg/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.projects {
+  background-image: url(images/bg/shape-1.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
