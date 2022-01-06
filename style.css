@@ -9,12 +9,12 @@ h2 {
   font-size: 40px;
   font-weight: 700;
 }
-.orange-color {
-  color: orange;
+.peach-color {
+  color: #f0b6ae;
 }
 #left-border {
   border-left: 3px solid;
-  border-image: linear-gradient(salmon, Orange);
+  border-image: linear-gradient(#ffe5b4, #ffcbc4);
   border-image-slice: 1;
   padding-left: 10px;
 }
@@ -30,10 +30,10 @@ section {
 }
 .btn-deco {
   text-decoration: none;
-  background-image: linear-gradient(orange, salmon);
+  background-image: linear-gradient(#ffe5b4, #ffcbc4);
 
   padding: 10px 25px;
   border-radius: 8px;
-  color: white;
+  color: rgb(12, 43, 58);
   font-weight: 700;
 }
