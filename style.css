@@ -9,8 +9,12 @@ h2 {
   font-size: 40px;
   font-weight: 700;
 }
+
 .peach-color {
   color: #f0b6ae;
+}
+div p {
+  padding: 10px 0px;
 }
 #left-border {
   border-left: 3px solid;
@@ -20,6 +24,7 @@ h2 {
 }
 section {
   display: flex;
+  padding: 20px 60px;
 }
 .half-width {
   width: 50%;
@@ -31,8 +36,8 @@ section {
 .btn-deco {
   text-decoration: none;
   background-image: linear-gradient(#ffe5b4, #ffcbc4);
-
-  padding: 10px 25px;
+  padding: 10px 20px;
+  border: 1px solid rgb(12, 43, 58);
   border-radius: 8px;
   color: rgb(12, 43, 58);
   font-weight: 700;
